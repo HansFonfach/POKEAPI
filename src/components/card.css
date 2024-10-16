@@ -1,0 +1,53 @@
+.card {
+  width: 18rem;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  margin: 1rem;
+}
+.card-header {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.abilities {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.abilities div {
+  margin-bottom: 0.5rem;
+}
+.normal {
+  background: linear-gradient(to bottom, #f0e68c, #8b4513);
+}
+.water {
+  background: linear-gradient(to bottom, #00b4db, #0083b0);
+}
+.electric {
+  background: linear-gradient(to bottom, #ffff99, #ffd700);
+}
+.fire {
+  background: linear-gradient(to bottom, #ffcccb, #ff4500);
+}
+.psychic {
+  background: linear-gradient(to bottom, #ff99cc, #cc33ff);
+}
+.dark {
+  background: linear-gradient(to bottom, #4b0082, #2f4f4f);
+}
+.grass {
+  background: linear-gradient(to bottom, #98fb98, #228b22);
+}
+.ice {
+  background: linear-gradient(to bottom, #e0ffff, #4682b4);
+}
+.fairy {
+  background: linear-gradient(to bottom, #ffb6c1, #ff69b4);
+}
